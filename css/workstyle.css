@@ -209,6 +209,9 @@ nav.open {
 .portfolio {
     width: 100%;
 }
+.portfolio-desc {
+    padding-bottom: 30px;
+}
 .portfolio-desc, .portfolio-img {
     width: 100%;
 }
@@ -230,12 +233,10 @@ nav.open {
 position: relative;
 border: 0;
 background-color:rgba(53, 145, 208, 1);
-padding: 20px 35px;
+padding: 10px;
 color: #f8f8f8;
-font-size: 1.25em;
+font-size: 1em;
 border-radius: 2px;
-left:25%;
-margin-left: -10px;
 box-shadow: 1px 1px 1px 1px #eee;
 font-weight: bold;
 }
@@ -388,6 +389,20 @@ a {
 .portfolio-desc h2 {
     text-align: left;
     padding-left: 10%;
+}
+
+.portfolio-desc .portfolio-link {
+position: relative;
+border: 0;
+background-color:rgba(53, 145, 208, 1);
+padding: 10px 20px;
+color: #f8f8f8;
+font-size: 1.25em;
+border-radius: 2px;
+left:25%;
+margin-left: -10px;
+box-shadow: 1px 1px 1px 1px #eee;
+font-weight: bold;
 }
 .portfolio-img {
     padding-top: 1%;
